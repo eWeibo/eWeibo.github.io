@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.top {
+	background-color: antiquewhite;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+}
+
+.content {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.content .head {
+	background-color: bisque;
+	padding: 10px;
+	height: 120px;
+	line-height: 120px;
+}
+
+.content .head img {
+	float: left;
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	margin-top: 10px;
+}
+
+.content .head a {
+	margin-left: 20px;
+	font-size: 18.75px;
+	float: left;
+	color: #f46200;
+	text-decoration: none;
+}
+
+.content .time {
+	float: right;
+	font-weight: bold;
+}
+
+.content #text {
+	margin: 20px 20px 0;
+}

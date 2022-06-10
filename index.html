@@ -2,15 +2,26 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title></title>
+		<title>E大微博备份 & 学习</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css">
 	</head>
 	<body>
-		<div class="top"></div>
+		<div class="top">
+			<h1>E大微博备份 & 学习</h1>
+		</div>
+
 		<div class="content">
+			<div class="head">
+				<img src="img/head.jpg" />
+				<p><a href="https://m.weibo.cn/u/5687069307" target="_blank">ETF拯救世界</a></p>
+				<p class="time">2022/05/06(动态变化)</p>
+			</div>
 			<div id="text"></div>
 		</div>
+
 		<div class="foot"></div>
 	</body>
+
 	<script>
 		var xhttp = new XMLHttpRequest();
 		xhttp.open("GET", "json/e.json", true);
