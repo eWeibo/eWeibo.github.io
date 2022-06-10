@@ -30,7 +30,7 @@
 			if (this.readyState == 4 && this.status == 200) {
 				var json = this.responseText;
 				var obj = JSON.parse(json);
-				console.log(obj.export_data[5687069307].record_list);
+				// console.log(obj.export_data[5687069307].record_list);
 				var i;
 				var html = "";
 				for (i = 0; i < obj.export_data[5687069307].record_list.length; i++) {
