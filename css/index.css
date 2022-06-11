@@ -38,11 +38,28 @@
 	text-decoration: none;
 }
 
-.content .time {
+.content .bactime {
 	float: right;
 	font-weight: bold;
 }
 
 .content #text {
 	margin: 20px 20px 0;
+}
+
+.content .search {
+	margin: 10px;
+}
+
+.content .layui-input-block {
+	float: right;
+}
+
+.content .layui-input-block input {
+	width: 500px;
+}
+
+.weibo .time {
+	margin-left: 10px;
+	font-size: 18px;
 }
